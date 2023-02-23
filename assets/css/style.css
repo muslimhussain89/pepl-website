@@ -2352,7 +2352,17 @@ working-at-pepl p:nth-child(2) {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) 
+{
+
+    .hscroll-line,
+    .hscroll-line2,
+    .hscroll-line3,
+    .hscroll-line4 
+    {
+        top: 25%;
+    }
+
 
     .our-vision-container {
         padding: 10% 8% 5%;
@@ -2785,9 +2795,26 @@ working-at-pepl p:nth-child(2) {
 }
 
 @media screen and (max-width: 580px) {
-    /* .slick-slider-wraper2 {
-        width: 55%;
-    } */
+    .hscroll-line,
+    .hscroll-line2,
+    .hscroll-line3,
+    .hscroll-line4 
+    {
+        top: 40%;
+        width: 170%;
+    }
+    .hscroll-line3 {
+        left: -64%;
+    }
+    .hscroll-line {
+        left: -42%;
+    }
+    .hscroll-line2 {
+        left: -20%;
+    }
+    .hscroll-line4 {
+        left: 0%;
+    }
 }
 
 @media screen and (max-width: 450px) {
