@@ -1,0 +1,2658 @@
+.content-caurosel-sec
+{
+    position: relative;
+}
+.content-caurosel-sec.founder
+{
+    height: 80vh;
+    overflow: hidden;
+}
+
+.content-caurosel-sec.ethics::before {
+    content: "";
+    background-color: #00000066;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+.hero-text
+{
+    position: absolute;
+    bottom: 10%;
+    left: 4%;
+}
+
+
+.mobl-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    z-index: 999;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.menu-height,
+.mobl-menu {
+    transition: height 0.9s, transform 2s;
+}
+.button .qube .front::after,
+.button:active .front::after,
+.button:active .front::before {
+    transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.mobl-menu ul li,
+.portfolio-dropdown ul li {
+    list-style-type: none !important;
+}
+@font-face {
+    font-family: Inter-Black;
+    src: url(../inter-font-family/Inter-Black.otf);
+}
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../inter-font-family/Inter-Bold.otf);
+}
+@font-face {
+    font-family: Inter-Light;
+    src: url(../inter-font-family/Inter-Light-BETA.otf);
+}
+@font-face {
+    font-family: Inter-Medium;
+    src: url(../inter-font-family/Inter-Medium.otf);
+}
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../inter-font-family/Inter-Regular.otf);
+}
+@font-face {
+    font-family: Inter-extra-light;
+    src: url(../inter-font-family/Inter-ExtraLight-BETA.otf);
+}
+.menu-height {
+    height: 105vh;
+}
+.button_container {
+    position: absolute;
+    background-image: url(../images/menu-image/closeBtn.svg);
+    width: 100%;
+    height: 35px;
+    background-repeat: no-repeat;
+    top: 3%;
+    right: -80%;
+}
+.aboutus-video iframe,
+.button .qube,
+.button .qube .back,
+.button .qube .front,
+.button .qube .front::before,
+.full,
+.moeem-image,
+.team-adipec-about img {
+    height: 100%;
+    width: 100%;
+}
+.button_container .bottom,
+.button_container .middle,
+.button_container .top,
+.domestic-menu,
+.down-share,
+.international-menu,
+.mob-about-menu,
+.mob-management-menu,
+.mobl-img,
+.portfolio-menu,
+.sustainability-menu,
+.value-menu {
+    display: none;
+}
+.button_container span {
+    width: 45%;
+    right: 26%;
+}
+.mob-menu-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 998;
+    background: 0 0;
+    border: none;
+}
+.dropdown-menu,
+.dropdown-menu li {
+    background-clip: inherit !important;
+}
+.fixed-menu-btn {
+    position: fixed;
+}
+.mob-menu-btn img {
+    width: 65%;
+}
+.mobl-menu ul li {
+    padding: 15px;
+}
+.mobl-menu ul li a {
+    text-decoration: none !important;
+    color: #fff !important;
+    font-size: 18px;
+    font-family: Inter-Medium;
+}
+.back-img-tab img {
+    width: 8%;
+}
+.domestic-menu .back-img-tab,
+.international-menu .back-img-tab,
+.mob-about-menu .back-img-tab,
+.mob-management-menu .back-img-tab,
+.portfolio-menu .back-img-tab,
+.sustainability-menu .back-img-tab,
+.value-menu .back-img-tab {
+    text-align: left !important;
+    margin-top: 20px;
+}
+.about-us-hover-btn .back img,
+.about-us-hover-btn .front img,
+.domestic-menu .back-img-tab {
+    margin-top: 0 !important;
+}
+.mob-main-menu,
+.slick-slider-wraper {
+    margin-top: 50px;
+}
+.domestic-menu {
+    height: 100%;
+    overflow-y: auto;
+    margin-top: 30px;
+}
+.button,
+.button .qube .front::before,
+.centered {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.button {
+    perspective: 1800px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button .qube {
+    position: relative;
+    perspective: 1800px;
+}
+.button .qube .back,
+.button .qube .front {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateX(-90deg);
+    transition: transform 0.3s;
+    position: absolute;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+}
+.button .qube .front::before {
+    content: "";
+    display: block;
+    z-index: -1;
+}
+.button .qube .front::after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: 0.4;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    width: 50px;
+    z-index: 1;
+}
+.button .qube .back {
+    color: #191919;
+    transform: rotateX(0) translateZ(60px);
+}
+.button .qube:hover .front {
+    transform: rotateX(0) translateZ(30px);
+}
+.button .qube:hover .back {
+    transform: rotateX(90deg) translateZ(30px);
+}
+.button:active .front {
+    border-radius: 0;
+    background-color: transparent;
+    color: #191919;
+}
+.button:active .front::before {
+    background-color: #d6d35d;
+}
+.button:active .front::after {
+    left: 120%;
+}
+.about-us-hover-btn {
+    padding-bottom: 50px;
+    height: 82px;
+}
+.about-us-hover-btn:hover {
+    background-color: #fff !important;
+}
+.about-us-hover-btn .front a,
+.about-us-hover-btn .back a
+ {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: left;
+    font-family: Inter-Bold;
+}
+.aur-assets-btn,
+.slider-heading-wraper a,
+.slider-news1 a {
+    text-decoration: none;
+    display: inline-block;
+}
+.dropdown-menu {
+    width: 240px;
+}
+.dropdown-menu li {
+    position: relative;
+    width: auto;
+}
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+    width: auto;
+}
+.international-link-btn:hover.international-link-btn .dropdown-menu {
+    display: block !important;
+    position: absolute;
+    left: 100%;
+    top: -5%;
+}
+.international-link-btn:hover .management-link {
+    display: none !important;
+}
+.dropdown-menu .dropdown-port {
+    display: block !important;
+}
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    border-radius: 0;
+}
+.international-link-btn ul {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.dropdown-menu a,
+.dropdown-port li a {
+    padding: 13px 90px 13px 30px;
+}
+.international-link-btn .dropdown-menu li:first-child,
+.international-link-btn .dropdown-menu li:nth-child(3) {
+    border-bottom: 1px solid #707070;
+    padding: 15px 80px 15px 22px;
+    font-size: 13px;
+    font-family: Inter-Regular;
+}
+.international-link-btn .dropdown-menu li:nth-child(2) a,
+.international-link-btn .dropdown-menu li:nth-child(4) a {
+    padding: 15px 80px 15px 22px;
+    font-family: Inter-Light;
+    font-size: 12px;
+    text-align: left;
+    border-bottom: 1px solid #707070;
+}
+.chairman-and-ca-head .companies-wraper,
+.international-link-btn .dropdown-menu li:nth-child(4) a,
+.page-top-wraper .table-head {
+    border-bottom: none;
+}
+.nav-item.dropdown:hover .dropdown-about,
+.nav-item.dropdown:hover .dropdown-port {
+    display: block !important;
+    padding-bottom: 0 !important;
+    border-radius: 0;
+}
+.dropdown-about img {
+    width: 100%;
+    margin-top: 25px;
+}
+.value-dropdown .dropdown-submenu li a {
+    padding: 13px 150px 13px 30px;
+}
+.dropdown-menu a {
+    font-family: Inter-Light;
+    font-size: 14px;
+}
+.portfolio-menu li a {
+    font-size: 12px;
+}
+.dropdown-about li a:hover,
+.dropdown-port li a:hover {
+    font-weight: 600 !important;
+}
+.carousel-indicators .active,
+.dropdown-menu li a:active {
+    background-color: #f9d541 !important;
+}
+.portfolio-dropdown {
+    display: flex !important;
+}
+.portfolio-dropdown .dropdown-item:hover {
+    color: #1e2125;
+    background-color: none !important;
+}
+.portfolio-dropdown ul li:hover {
+    background-color: #e9ecef !important;
+}
+.portfolio-dropdown ul {
+    padding-left: 0 !important;
+}
+.portfolio-dropdown1 {
+    border-right: 1px solid #707070;
+}
+.portfolio-dropdown1 ul li {
+    padding: 0 22px !important;
+}
+.portfolio-dropdown2 ul li {
+    padding: 0 20px !important;
+}
+.portfolio-dropdown ul li a {
+    padding: 7px 0 !important;
+}
+.domestic-menu,
+.international-menu,
+.mob-management-menu,
+.portfolio-menu,
+.sustainability-menu,
+.value-menu {
+    top: -2% !important;
+    padding: 0;
+}
+.dropdown1-head,
+.dropdown1-head-2 {
+    border-bottom: 1px solid #707070;
+    padding: 22px 80px 10px 22px;
+    font-size: 13px;
+    font-family: Inter-Regular;
+    margin-bottom: 10px !important;
+}
+.dropdown1-head-2 {
+    padding: 10px 10px 10px 22px;
+}
+.last-link {
+    margin-bottom: 25px;
+}
+.portfolio-menu .portfolio-dropdown {
+    height: 100%;
+}
+.inter-domes-tab-col-1,
+.inter-domes-tab-col-2,
+.portfolio-dropdown ul li:nth-child(11) {
+    padding: 0 !important;
+}
+.portfolio-dropdown ul li:nth-child(11) p {
+    border-top: 1px solid #707070;
+}
+.management-link {
+    padding-top: 8px !important;
+}
+.directors-top-wraper .mission-top-wraper-row2 img,
+.domestic-dignitaries-image-wraper .internation-images,
+.domestic-image-wraper .internation-images,
+.domestic-singing-image-wraper .internation-images,
+.domestic-tab-img,
+.download-files .download-wraper img,
+.footer-bottom .site-logo img,
+.internation-image-wraper .internation-images,
+.pepl-team-participation .pepl-container img,
+.strategic-panel-sec img,
+.tranding-wraper iframe {
+    width: 100%;
+}
+.dropdown-port {
+    padding-top: 0 !important;
+}
+.dropdown-port .domestic-tab {
+    height: 428px !important;
+}
+.dropdown-port .domestic-tab img,
+.working-at-pepl a {
+    position: absolute;
+    bottom: 0;
+}
+.body-slider-wraper .slider-parent {
+    display: flex;
+}
+.sidebar-logo-sec {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.slick-slider-wraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content-caurosel-sec,
+.slick-slider-wraper-inner {
+    flex: 1;
+}
+.sidebar-logo-sec img {
+    width: 75%;
+    margin-top: 15px;
+}
+.social-media-wraper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.3rem;
+    margin-top: 3.3rem;
+}
+.social-media-wraper i {
+    margin: 6px 0;
+    font-size: 1.6vw;
+    color: #afafaf;
+}
+.social-media-wraper i:hover {
+    color: #434343;
+}
+.navbar {
+    position: absolute !important;
+    top: -1.5%;
+    right: 10%;
+    z-index: 999;
+}
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+}
+.nav-item {
+    margin: 0 12px;
+}
+.nav-link {
+    font-family: Inter-Medium;
+    color: #fff !important;
+    font-size: 1.08vw;
+    padding-top: 35px;
+}
+.nav-link:hover {
+    background-color: #fff;
+    color: #000 !important;
+}
+.carousel-indicators {
+    flex-direction: column !important;
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    left: auto !important;
+    bottom: auto !important;
+    margin-right: auto !important;
+    margin-bottom: auto !important;
+    margin-left: auto !important;
+}
+.carousel-indicators [data-bs-target] {
+    margin-bottom: 8px;
+    width: 6px;
+    height: 6px;
+    padding: 2px;
+    border-radius: 25px !important;
+    border: 0;
+}
+.slider-heading-wraper p {
+    font-family: Inter-Light;
+    font-size: 1vw;
+    margin-bottom: 8px !important;
+    padding-left: 2.2px;
+    color: #fff;
+}
+.slider-heading-wraper h1 {
+    font-family: Inter-Regular;
+    line-height: 1.2;
+    color: #f9d541;
+    font-size: 2.5vw;
+}
+.slider-heading-wraper a {
+    color: #000;
+    padding: 10px 26px 12px;
+    background: #f9d549;
+    border-radius: 25px;
+    font-size: 0.8vw;
+    margin-top: 10px;
+}
+.date,
+.slider-news1 a {
+    color: #fff;
+    font-family: Inter-Light;
+    font-size: 0.8vw;
+}
+.slider-news1 a {
+    margin-top: 8px;
+    padding-right: 40px;
+}
+.slider-news1 a .slider-news1-heading {
+    margin-bottom: 8px !important;
+    font-family: Inter-Bold;
+    font-size: 0.9vw;
+}
+.slider-news1 a:hover .slider-news1-heading {
+    color: #f9d549;
+}
+.slick-prev {
+    left: auto !important;
+    right: -64px !important;
+    border-right: 2px solid #707070;
+}
+.slick-next {
+    right: -110px !important;
+}
+.slick-next:focus,
+.slick-next:hover,
+.slick-prev:focus {
+    background: #f9d549 !important;
+}
+.slick-next:hover,
+.slick-prev:hover {
+    background: #fff !important;
+}
+.slick-next:hover.slick-next:before,
+.slick-prev:hover.slick-prev:before {
+    color: #b9b9b9;
+}
+.slick-next:before,
+.slick-prev:before {
+    line-height: unset !important;
+    font-family: Inter-Bold;
+    font-size: 22px;
+    color: #000;
+}
+.slick-next,
+.slick-prev {
+    background: #f9d549;
+    padding: 22px 32px 22px 14px;
+    top: 65%;
+}
+.news-and-update-sec {
+    background: #efefef;
+}
+.news-parent {
+    display: flex;
+    margin-top: -26%;
+}
+.latest-media-wraper{
+    margin-bottom: 50px;
+}
+.slick-slider-wraper2 {
+    width: 80%;
+    padding-left: 4%;
+    z-index: 2;
+}
+.extra-col {
+    visibility: hidden;
+}
+.our-vision-container {
+    padding: 8% 8% 5%;
+    background: #efefef;
+}
+.vision-content {
+    padding: 5% 10%;
+    background-color: #fff;
+}
+.our-vision-container .carousel-control-next-icon,
+.our-vision-container .carousel-control-prev-icon {
+    background-image: none !important;
+}
+.adipec-wraper1 .carousel-control-next-icon::before,
+.our-vision-container .carousel-control-next-icon::before,
+.tender-section .tender-files .tender-file1 a::before,
+.tender-section .tender-files .tender-file2 a::before,
+.tender-section .tender-files .tender-file3 a::before {
+    content: "→";
+    line-height: unset !important;
+    font-family: Inter-Bold;
+    font-size: 22px;
+    color: #000;
+}
+.adipec-wraper1,
+.ethics-top-wraper .mission-top-wraper-col1 p,
+.tender-inner-sec1 {
+    padding-right: 25px;
+}
+.adipec-wraper2,
+.ethics-top-wraper .mission-top-wraper-col2 p {
+    padding-left: 25px;
+}
+.adipec-wraper1 .carousel-control-prev-icon::before,
+.our-vision-container .carousel-control-prev-icon::before {
+    content: "←";
+    line-height: unset !important;
+    font-family: Inter-Bold;
+    font-size: 22px;
+    color: #000;
+}
+.adipec-wraper1 .carousel-control-next-icon,
+.adipec-wraper1 .carousel-control-prev-icon,
+.our-vision-container .carousel-control-next-icon,
+.our-vision-container .carousel-control-prev-icon {
+    background: #f9d549;
+    padding: 10px 14px;
+    width: auto;
+    height: auto;
+}
+.adipec-wraper1 .carousel-control-prev {
+    right: 51px;
+    left: auto;
+}
+#carouselExampleControls4,
+.adipec-wraper1 .news-wraper img {
+    margin-top: 25px;
+    width: 100%;
+}
+.our-vision-container .carousel-control-prev-icon {
+    padding: 10px 15px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    top: auto !important;
+    width: auto !important;
+    background: #f9d549;
+    opacity: 1;
+}
+.assets-section,
+.badar-south-head,
+.team-adipec-about,
+.team-bottom-wraper-image {
+    background-repeat: no-repeat;
+}
+.carousel-control-prev {
+    right: 48px;
+    left: auto;
+}
+.carousel-control-next {
+    border-left: 2px solid #707070;
+}
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+    opacity: 1 !important;
+}
+.badar-south-head a,
+.vision-content-detail a,
+.vision-content-detail-lower a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 16px;
+    background: #f9d549;
+    border-radius: 25px;
+    font-size: 0.8vw;
+    font-family: Inter-Medium;
+    display: inline-block;
+}
+.badar-south-head a img,
+.vision-content-detail a img,
+.vision-content-detail-lower a img {
+    width: 28px;
+    margin-left: 5px;
+}
+.vision-content-detail {
+    padding: 0 85px 0 35px;
+}
+.assets-detail-wraper h5,
+.vision-content-detail h5 {
+    font-family: Inter-Medium;
+    font-size: 1.5vw;
+}
+.vision-content-detail p {
+    margin: 25px 0 !important;
+    line-height: 1.7;
+    font-family: Inter-Regular;
+    font-size: 1.2vw;
+}
+.our-vision-wraper-lower .our-vision-container {
+    padding: 0 12% 5%;
+}
+.vision-content-detail-lower {
+    padding-left: 15px;
+    padding-right: 15%;
+}
+.vision-content-detail-lower h5 {
+    font-family: Inter-Medium;
+    font-size: 1.2vw;
+    margin-top: 30px;
+}
+.pepl-team-participation .pepl-container .adipec-detail,
+.vision-content-detail-lower p {
+    margin: 20px 0 !important;
+    line-height: 1.5;
+    font-family: Inter-Regular;
+    font-size: 0.9vw;
+}
+.assets-section {
+    background-image: url(../images/home-page-images/map.webp);
+    background-size: contain;
+    background-color: #f9d541;
+    background-position: right;
+}
+.assets-section .assets-container,
+.pepl-team-participation .pepl-container,
+.tender-section .tender-container {
+    padding: 5% 12%;
+}
+.assets-detail-wraper {
+    padding-left: 15px;
+}
+.aur-assets-btn {
+    color: #000;
+    padding: 10px 26px 12px;
+    border-radius: 25px;
+    font-size: 0.8vw;
+    margin-top: 10px;
+    border: 1px solid #000;
+}
+.pepl-team-participation .pepl-container a,
+.tender-section .tender-read-more {
+    display: inline-block;
+    border-radius: 25px;
+    background: #f9d549;
+    text-decoration: none;
+}
+.assets-detail-wraper .ep-head {
+    font-size: 1.3vw;
+    font-family: Inter-Regular;
+    margin-bottom: 5px;
+}
+.assets-detail-wraper .assets-detail {
+    margin: 25px 0 !important;
+    line-height: 1.7;
+    font-family: Inter-Regular;
+    font-size: 1vw;
+}
+.pepl-team-participation .pepl-container .participation-carousel {
+    border-right: 1px solid #ebeded;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+.pepl-activities {
+    height: 85vh;
+    overflow: hidden;
+}
+.pepl-team-participation .pepl-container .adipec-head {
+    font-family: Inter-Medium;
+    font-size: 1.2vw;
+    margin-bottom: 25px;
+}
+.pepl-team-participation .pepl-container a {
+    font-size: 0.8vw;
+    font-family: Inter-Medium;
+    color: #797979;
+    margin-bottom: 28px;
+    margin-top: 20px;
+    padding: 10px 16px;
+}
+.footer-bottom .privacy-links a,
+.footer-wraper .footer-links a {
+    line-height: 1.2 !important;
+    display: inline-block;
+    padding-right: 5px;
+    text-decoration: none;
+}
+.pepl-team-participation .pepl-container .borderrs {
+    margin-bottom: 55px;
+    border-bottom: 2px dashed #ebeded;
+}
+.pepl-team-participation .pepl-container .carousel-control-prev-icon {
+    background-image: url(../images/home-page-images/left-arrow.webp) !important;
+    background-size: auto;
+}
+.pepl-team-participation .pepl-container .carousel-control-next-icon {
+    background-image: url(../images/home-page-images/right-black-arrow.webp) !important;
+    background-size: auto;
+}
+.pepl-team-participation .pepl-container .carousel-control-next {
+    border-left: none;
+    padding: 6px;
+}
+.pepl-team-participation .pepl-container .carousel-control-prev {
+    padding: 6px;
+    right: 46px;
+}
+.pepl-team-participation .pepl-container .carousel-control-next:hover.carousel-control-next,
+.pepl-team-participation .pepl-container .carousel-control-prev:hover.carousel-control-prev {
+    background-color: #fff;
+    outline: #e2e2e2 solid 1px;
+}
+.pepl-team-participation .pepl-container .carousel-control-prev:hover.carousel-control-prev .carousel-control-prev-icon {
+    background-image: url(../images/home-page-images/adipec-left-gray.webp) !important;
+}
+.pepl-team-participation .pepl-container .carousel-control-next:hover.carousel-control-prev .carousel-control-next-icon {
+    background-image: url(../images/home-page-images/adipec-right-gray.webp);
+}
+.pepl-crisis-management {
+    padding-top: 45px;
+    padding-left: 5px;
+    padding-right: 25px;
+}
+.pepl-crisis-management .crisis-management-head,
+.pepl-crisis-management .save-water-head {
+    font-family: Inter-Bold;
+    font-size: 0.9vw;
+    margin-bottom: 10px;
+}
+.pepl-crisis-management .crisis-management-head {
+    margin-top: 25px;
+}
+.pepl-crisis-management .crisis-management-details,
+.pepl-crisis-management .save-water-details {
+    margin: 10px 0 !important;
+    line-height: 1.5;
+    font-family: Inter-Regular;
+    font-size: 0.9vw;
+}
+.tranding-wraper {
+    border-left: 1px solid #ebeded;
+    display: flex;
+    align-items: center;
+}
+.download-inner1,
+.tranding-wraper1 {
+    padding-left: 20px;
+}
+.tranding-wraper .tranding-head {
+    font-family: Inter-Bold;
+    font-size: 1.2vw;
+    margin-bottom: 10px;
+    color: #7b7b7b;
+}
+.tranding-wraper .gas-field-head,
+.tranding-wraper .hssc-head {
+    font-family: Inter-Bold;
+    font-size: 0.9vw;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.chairman-message,
+.companies-wraper .page-top-head,
+.tranding-wraper .gas-field-head {
+    margin-bottom: 20px;
+}
+.tranding-wraper .gas-field-detail,
+.tranding-wraper .hssc-detail {
+    font-family: Inter-Regular;
+    font-size: 0.9vw;
+    padding-left: 15px;
+}
+.tender-section {
+    background-color: #efefef;
+}
+.tender-section .tender-head {
+    font-family: Inter-Bold;
+    font-size: 1.2vw;
+    margin-bottom: 10px;
+    color: #4d4d4d;
+}
+.tender-section .tender-detail {
+    margin: 8px 0 20px !important;
+    line-height: 1.5;
+    font-family: Inter-Regular;
+    font-size: 0.9vw;
+}
+.tender-section .tender-files .tender-file1,
+.tender-section .tender-files .tender-file2,
+.tender-section .tender-files .tender-file3 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #707070;
+    align-items: center;
+}
+.tender-section .tender-files .tender-file1 a,
+.tender-section .tender-files .tender-file2 a,
+.tender-section .tender-files .tender-file3 a {
+    text-decoration: none;
+    padding: 4px 12px;
+    background-color: #f9d541;
+    margin: 10px 0;
+}
+.tender-section .tender-files .tender-file1 p,
+.tender-section .tender-files .tender-file2 p,
+.tender-section .tender-files .tender-file3 p {
+    font-size: 0.8vw;
+    font-family: Inter-Medium;
+    color: #797979;
+    margin-bottom: 0 !important;
+}
+.tender-section .tender-read-more {
+    font-size: 0.8vw;
+    font-family: Inter-Medium;
+    color: #797979;
+    margin-top: 30px;
+    padding: 10px 16px;
+}
+.download-inner {
+    border-left: 2px solid #7e7e7e;
+}
+.footer-container {
+    padding: 40px 2% 15px;
+}
+.footer-upper {
+    background-color: #f9d541;
+}
+.footer-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-wraper .footer-links a {
+    color: #000;
+    border-right: 1px solid #000;
+    font-family: Inter-Light;
+    font-size: 0.9vw;
+}
+.footer-bottom .privacy-links a:nth-child(3),
+.footer-wraper .footer-links a:nth-child(3) {
+    border-right: none;
+}
+.footer-social-links a {
+    text-decoration: none;
+    color: #000;
+}
+.footer-social-links i {
+    margin: 0 6px;
+    font-size: 1.2vw;
+}
+.footer-bottom .footer-container {
+    padding: 20px 2%;
+}
+.footer-bottom .privacy-links {
+    text-align: right;
+}
+.carousel-caption,
+.our-team-sec .chairman-img-wraper {
+    text-align: left !important;
+}
+.footer-bottom .privacy-links a {
+    color: #fff;
+    font-family: Inter-Medium;
+    font-size: 0.9vw;
+}
+.footer-bottom {
+    background-color: #393939;
+}
+.footer-bottom-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bottom .site-logo a {
+    width: 20%;
+}
+.footer-bottom .site-logo {
+    display: flex;
+    align-items: center;
+}
+.breadcrumb,
+.link-about {
+    justify-content: space-between;
+}
+.footer-bottom .site-logo p {
+    margin-bottom: 0;
+    font-family: Inter-medium;
+    margin-left: 15px;
+    color: #fff;
+    font-size: 1vw;
+}
+.footer-bottom .copyright p {
+    color: #fff;
+    font-family: Inter-extra-light;
+    font-size: 0.8vw;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.breadcrumb {
+    margin-bottom: 0;
+}
+.breadcrumb .down-share img {
+    width: 20%;
+    margin: 10px 5px 0;
+}
+.breadcrumbs-container {
+    border-bottom: 1px solid #b5b5b5;
+    border-top: 1px solid #b5b5b5;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    width: 100%;
+}
+.adipec-container,
+.ayesha-gas-complex-container,
+.companies-container,
+.download-container,
+.kedra-gas-field .our-vision-container,
+.key-feature-container,
+.mission-container,
+.news-container,
+.page-top-container {
+    padding: 0 7%;
+}
+.breadcrumbs-container {
+    padding-left: 7%;
+}
+.breadcrumb ul {
+    padding: 10px 16px 10px 0;
+    list-style: none;
+    margin-bottom: 0 !important;
+}
+.breadcrumb ul li {
+    display: inline;
+    font-family: Inter-Regular;
+    font-size: 0.9vw;
+}
+.breadcrumb ul li + li:before {
+    padding: 2px;
+    color: #000;
+    content: "/\00a0";
+}
+.breadcrumb ul li a {
+    color: #000;
+    text-decoration: none;
+}
+.ayesha-gas-top {
+    border-bottom: 2px solid #b5b5b5;
+    padding: 38px 0 30px;
+}
+.ayesha-gas-complex {
+    border-bottom: 1px solid #b5b5b5;
+    padding-bottom: 20px;
+}
+.ayesha-gas-complex-container h1 {
+    font-size: 1.6vw;
+    font-family: Inter-Bold;
+    color: #5c5c5c;
+    margin-top: 25px;
+}
+.ayesha-gas-complex-container p {
+    margin: 12px 0 !important;
+    line-height: 1.7;
+    font-family: Inter-Regular;
+    font-size: 1.1vw;
+    color: #9a9a9a;
+}
+.key-feature-col-left .key-feature-text,
+.key-feature-text,
+.table-right-content {
+    font-family: Inter-Regular;
+    font-size: 1vw;
+    color: #4d4d4d;
+}
+.key-feature {
+    padding: 55px 0;
+}
+.table-right-wraper {
+    margin-left: 50px;
+}
+.table-head {
+    font-family: Inter-Bold;
+    color: #3a3a3a;
+    font-size: 1vw;
+    margin-bottom: 12px;
+    background-color: #f9d549;
+    padding: 10px 0 10px 10px;
+}
+.table-div {
+    border-bottom: 1px solid #ccc;
+    padding: 6px 0;
+    display: flex;
+}
+.table-right-wraper .table-head {
+    margin-top: 0;
+    border-bottom: none;
+    padding: 10px 0 10px 10px;
+}
+.span-left {
+    display: inline-block;
+    width: 200px;
+}
+.feature-image img {
+    width: 100%;
+    margin: 65px 0;
+}
+.kedra-gas-field {
+    margin: 25px 0 70px;
+}
+.kedra-gas-field .our-vision-container {
+    background-color: #fff;
+}
+.kedra-gas-field .vision-content {
+    padding: 0;
+}
+.kedra-gas-field .vision-carousel {
+    padding-right: 45px;
+}
+.carousel-caption {
+    left: 4% !important;
+}
+.companies-detail .company-head {
+    color: #717171;
+    font-family: Inter-Medium;
+    font-size: 1.2vw;
+    margin: 12px 0;
+}
+.chairman-and-ca-head .company-detail,
+.companies-detail .company-detail {
+    font-family: Inter-Regular;
+    font-size: 1vw;
+    color: #3a3a3a;
+    margin-bottom: 0 !important;
+}
+.about-bottom-wraper,
+.download-files,
+.grpofcmpny {
+    padding: 5% 0;
+}
+.grpofcmpny .company-detail,
+.latest-medai-release {
+    padding-bottom: 5%;
+}
+.bod-working-at-pepl,
+.chairman-and-ca-head,
+.grpofcmpny .company-list-first .companies-wraper,
+.grpofcmpny .company-list-second .companies-wraper {
+    padding-top: 5%;
+}
+.grpofcmpny .company-list-first .companies-wraper:first-child,
+.grpofcmpny .company-list-second .companies-wraper:first-child {
+    padding-top: 0;
+}
+.companies-wraper {
+    border-bottom: 1px solid #707070;
+    line-height: 1.8;
+}
+.company-list-second .companies-wraper {
+    margin-right: 0;
+}
+.chairman-img-wraper {
+    text-align: center;
+}
+.chairman-and-ca-head .companies-wraper .chairman-img-wraper img {
+    width: 40%;
+    margin-bottom: 25px;
+}
+.founder-pic {
+    border-radius: 125px;
+    width: 35% !important;
+}
+.about-bottom-wraper .about-team {
+    border: 1px solid #bcbcbc;
+    padding: 25px;
+    position: relative;
+}
+.about-bottom-wraper .bottom-wraper {
+    position: absolute;
+    bottom: 15px;
+    padding-right: 25px;
+}
+.about-bottom-wraper .about-team-head,
+.working-at-pepl p:first-child {
+    margin-bottom: 45px;
+    font-family: Inter-medium;
+    font-size: 1vw;
+    color: #9a9a9a;
+}
+.working-at-pepl p:nth-child(2) {
+    font-size: 1.5vw;
+    font-family: Inter-Light;
+}
+.meet-our-team {
+    font-family: Inter-regular;
+    font-size: 0.9vw;
+    color: #000;
+}
+.about-team-detail,
+working-at-pepl p:nth-child(2) {
+    font-family: Inter-regular;
+    font-size: 0.9vw;
+    color: #9a9a9a;
+}
+.about-bottom-wraper .about-team a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 16px;
+    background: #f9d549;
+    border-radius: 25px;
+    font-size: 0.8vw;
+    font-family: Inter-Medium;
+    margin-top: 20px;
+    display: inline-block;
+}
+.team-adipec-about a,
+.working-at-pepl a {
+    padding: 12px;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    background: #f9d549;
+    font-family: Inter-Regular;
+    font-size: 12px;
+}
+.international-image-head p:hover,
+.latest-media-wraper a {
+    background-color: #f8d64b;
+}
+.team-adipec-about a img {
+    width: 3%;
+    margin-left: 10px;
+}
+.about-team,
+.team-adipec-about {
+    height: 36vh;
+}
+.team-adipec-about {
+    position: relative;
+    background-image: url(../images/chairman/adipec-image1.webp);
+    background-size: cover;
+}
+.team-adipec-about a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.bod-executive.about-bottom-wraper {
+    padding-top: 5%;
+    padding-bottom: 0 !important;
+}
+.page-top .team-explain,
+.team-explain {
+    margin: 20px 50px 0 0 !important;
+    line-height: 1.7;
+    font-family: Inter-Regular;
+    font-size: 1.1vw;
+}
+.team-designation
+{
+    font-family: Inter-Regular;
+    font-size: 1.1vw;
+}
+.chairman-and-ca-head .our-team-sec img {
+    width: 100% !important;
+}
+.about-bottom-wraper .link-about a,
+.our-team-sec .chairman-img-wraper a {
+    text-decoration: none;
+    font-family: Inter-Medium;
+    line-height: 1;
+    color: #3e3e3e;
+    font-size: 1.2vw;
+    margin-top: 5px;
+}
+.about-bottom-wraper .link-about a span,
+.our-team-sec .chairman-img-wraper a span {
+    font-family: Inter-Regular;
+    font-size: 0.8vw;
+    color: #3c3c3c;
+}
+.link-about {
+    background-color: #ebebeb;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    height: 10vh;
+}
+.moeen-container .link-about,
+.working-at-pepl {
+    background-color: #f4f4f4;
+}
+.moeen-image-wraper,
+.moeen-image-wraper1,
+.moeen-image-wraper2,
+.moeen-image-wraper3,
+.moeen-image-wraper4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 62vh;
+    background-position: left;
+}
+.moeen-image-wraper {
+    background-image: url(../images/team/moeenuddin.webp);
+}
+.moeen-image-wraper1 {
+    background-image: url(../images/bod/Bilal-Kausar.webp);
+}
+.moeen-image-wraper2 {
+    background-image: url(../images/bod/Hina-Zaheer.webp);
+}
+.moeen-image-wraper3 {
+    background-image: url(../images/bod/Abdullah-Zafar.webp);
+}
+.moeen-image-wraper4 {
+    background-image: url(../images/bod/Faisal-Zafar.webp);
+}
+.about-bottom-wraper .team-bottom-wraper h1 {
+    margin-bottom: 5% !important;
+}
+.team-bottom-wraper-image {
+    background-image: url(../images/team/team.webp);
+    background-size: cover;
+}
+.chairman-and-ca-head .our-team-sec .link-about img {
+    width: 3% !important;
+}
+.about-bottom-wraper .link-about img {
+    width: 4% !important;
+}
+.team-bottom-wraper .team-adipec-about,
+.team-bottom-wraper .team-bottom-wraper-image,
+.working-at-pepl {
+    height: 72vh;
+    overflow: hidden;
+}
+.working-at-pepl {
+    position: relative;
+}
+.working-at-pepl p:first-child {
+    color: #333 !important;
+    margin-bottom: 15px !important;
+}
+.working-at-pepl-text {
+    padding: 35px;
+}
+.working-at-pepl img {
+    width: 5%;
+}
+.page-top-wraper .page-top-small-head {
+    color: #3a3a3a;
+    margin: 25px 0 4px !important;
+    line-height: 1.7;
+    font-family: Inter-Regular;
+    font-size: 1.1vw;
+}
+.chairman-message,
+.page-top-head,
+.page-top-wraper .page-top-head {
+    font-size: 1.6vw;
+    font-family: Inter-Bold;
+    color: #3a3a3a;
+}
+.news-section {
+    margin-top: 75px;
+}
+.news-section .news-wraper img {
+    width: 100%;
+    padding: 20px;
+}
+.news-section .news-wraper p {
+    font-family: Inter-Regular;
+    font-size: 1.6vw;
+    color: #9a9a9a;
+    padding: 20px;
+}
+.news-section .second-row {
+    margin-top: 100px;
+}
+.download-files .download-container {
+    border-bottom: 1px solid #b5b5b5;
+    padding-bottom: 5%;
+}
+.download-wraper {
+    height: 440px;
+    position: relative;
+}
+.download-files .download-wraper p {
+    font-family: Inter-Regular;
+    font-size: 1vw;
+    color: #4d4d4d;
+    margin-top: 25px;
+    margin-bottom: 65px;
+    padding-right: 50px;
+}
+.Dignitaries-tab,
+.domestic-Dignitaries-tab,
+.domestic-singing-tab,
+.domestic-tab,
+.download-files .download-wraper a,
+.drilling-tab,
+.internaional-img-tab,
+.moroco-spud-tab,
+.moroco-tab {
+    cursor: pointer;
+}
+.download-files .download-wraper a,
+.media-contact a {
+    display: inline-block;
+    border: 2px solid #b5b5b5;
+    padding: 10px;
+    font-size: 0.7vw;
+    font-family: Inter-bold;
+    text-decoration: none;
+    color: #4d4d4d;
+    position: absolute;
+    bottom: 0;
+}
+.media-contact {
+    border-top: 1px solid #b5b5b5;
+    border-bottom: 1px solid #b5b5b5;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.media-contact-wraper-left {
+    border-right: 1px solid #b5b5b5;
+}
+.media-contact a {
+    border: none;
+    font-size: 0.8vw;
+    position: unset;
+}
+.media-contact a img {
+    width: 10%;
+    margin-right: 10px;
+}
+.media-contact-wraper,
+.media-contact-wraper-left {
+    text-align: center;
+    padding: 10px 0;
+}
+.latest-medai-release .latest-media-top p {
+    font-family: Inter-medium;
+    font-size: 0.8vw;
+    color: #717171;
+}
+.latest-media-wraper p:first-child {
+    font-size: 1vw;
+    font-family: Inter-bold;
+    color: #676767;
+}
+.latest-media-wraper p:nth-child(2) {
+    font-family: Inter-Regular;
+    font-size: 1vw;
+    color: #4d4d4d;
+    margin-bottom: 6px;
+}
+.latest-media-wraper a {
+    display: inline-block;
+    padding: 4px;
+    font-size: 0.8vw;
+    font-family: Inter-light;
+    text-decoration: none;
+    color: #4d4d4d;
+    border-radius: 5px;
+}
+.international-image-head p {
+    font-size: 1.3vw;
+    font-family: Inter-bold;
+    color: #676767;
+    text-align: center;
+    border: 1px solid #3a3a3a;
+    padding: 25px;
+}
+.inter-domes-tab-row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.tender-link,
+.tender-links {
+    border: 1px solid #848484;
+    margin: 25px 0;
+}
+.mission-top-wraper .mission-top-wraper-col {
+    padding: 25px 0;
+    border-bottom: 2px solid #ebeded;
+}
+.partner-top-wraper .mission-top-wraper-row {
+    padding: 45px 0;
+    border-bottom: 2px solid #ebeded;
+}
+.partner-img-1,
+.partner-img-10,
+.partner-img-11,
+.partner-img-2,
+.partner-img-3,
+.partner-img-4,
+.partner-img-5,
+.partner-img-6,
+.partner-img-8,
+.partner-img-9 {
+    width: 50%;
+}
+.partner-img-7 {
+    width: 75%;
+}
+.partner-list {
+    padding: 45px 0;
+}
+.partner-list p {
+    line-height: 1.7;
+    font-family: Inter-Regular;
+    font-size: 1.2vw;
+}
+.tender-link a,
+.tender-links a {
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-family: Inter-Regular;
+}
+.partner-list-head {
+    font-size: 1.5vw !important;
+    font-family: Inter-Bold !important;
+    color: #5c5c5c !important;
+}
+.tender-top-wraper .mission-container {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.tender-links {
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tender-link {
+    align-items: center;
+}
+.public-tender {
+    background-color: grey;
+    padding: 15px 25px;
+}
+.badar-south-detial h1,
+.tender-link a {
+    color: #fff;
+}
+.tender-link p {
+    margin-top: 5px !important;
+    color: #fff;
+}
+.tender-links a {
+    background-color: #fff;
+    color: #5d5d5d;
+    margin: auto 20px;
+    text-align: -webkit-center;
+}
+#animContainer1,
+#animContainer10,
+#animContainer11,
+#animContainer12,
+#animContainer2,
+#animContainer3,
+#animContainer4,
+#animContainer5,
+#animContainer6,
+#animContainer7,
+#animContainer8,
+#animContainer9 {
+    width: 24% !important;
+    margin-right: 4%;
+}
+.about-top-wraper .mission-container {
+    border-bottom: 2px solid #ebeded;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-top-wraper2 {
+    margin: 20px 0 50px;
+}
+.aboutus-video {
+    height: 100vh;
+    margin-bottom: 5%;
+}
+.group-of-companies-tab {
+    position: relative;
+    height: 75vh;
+    background-image: url(../images/group-of-companies/GroupOfCompanyBanner.webp);
+    background-size: cover;
+    background-position: bottom;
+}
+.about-top-wraper h1 {
+    line-height: 1.5;
+}
+.group-of-companies-tab a {
+    position: absolute;
+    bottom: 12%;
+    left: 70%;
+    text-decoration: none;
+    font-family: Inter-Regular;
+    font-size: 1.8vw;
+    color: #fff;
+}
+.group-of-companies-tab a img {
+    width: 8%;
+    margin-top: -10px;
+}
+.grp-of-campany-grid .grp-of-campany-grid-wraper
+    {
+        height: 24vh;
+        border-top: 1px solid #707070;
+        border-bottom: 1px solid #707070;
+        background-image: url(../images/group-of-companies/group-company-grid.png);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        margin-top: 2%;
+        background-position: center;
+    }
+.directors-top-wraper .mission-top-wraper-row1 {
+    border-bottom: 2px solid #ebeded;
+    padding-top: 40px;
+}
+.directors-top-wraper .mission-top-wraper-row1 h1 {
+    font-family: Inter-Regular;
+    font-size: 2.2vw;
+}
+.directors-top-wraper .mission-top-wraper-row2 {
+    padding: 55px 0 !important;
+    border-bottom: 2px solid #ebeded;
+}
+.directors-top-wraper .mission-top-wraper-row2 h1 {
+    margin-bottom: 0 !important;
+}
+.ethics-slider {
+    background-color: #000;
+}
+.ethics-slider img {
+    opacity: 0.5;
+}
+.ethics-top-wraper .mission-top-wraper-row {
+    padding: 50px 0;
+}
+.hsse-head2,
+.hsse-head4 {
+    margin-top: 60px;
+}
+.badar-south-head {
+    background-image: url(../images/home-page-images/ayesha-gas-complex.webp);
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+.badar-south-detial {
+    position: absolute;
+    bottom: 35px;
+    color: #fff;
+    padding-right: 20%;
+}
+.badar-south-detial .page-top-head
+{
+    color: white;
+}
+.badar-south-detial p {
+    font-weight: 900;
+}
+.badar-south-detial a {
+    display: inline-block;
+}
+.our-people-wraper .page-top-head {
+    margin-top: 25px !important;
+}
+.our-people-col1 {
+    padding-right: 25px;
+    margin-top: 45px;
+}
+.our-people-col2 {
+    margin-top: 45px;
+    padding-left: 25px;
+}
+.our-people-wraper .education-head {
+    margin-top: 45px !important;
+}
+.privacy-wraper {
+    margin-bottom: 35px;
+}
+.privacy-wraper .page-top-head {
+    margin: 35px 0 !important;
+}
+.mission-container iframe {
+    height: 80vh !important;
+    width: 100%;
+    margin: 50px 0;
+}
+.Dignitaries-sub-images,
+.domestic-Dignitaries-sub-images,
+.domestic-image-wraper,
+.domestic-singing-image-wraper,
+.drilling-sub-images,
+.image-library-wraper,
+.inter-domes-tab,
+.moroco-spud-sub-images,
+.moroco-sub-images {
+    display: none;
+    margin-bottom: 70px;
+}
+.Dignitaries-sub-images,
+.drilling-sub-images,
+.moroco-spud-sub-images,
+.moroco-sub-images {
+    margin-top: 70px;
+}
+.Dignitaries-sub-images img,
+.domestic-Dignitaries-sub-images img,
+.domestic-dignitaries-image-wraper img,
+.drilling-sub-images img,
+.moroco-spud-sub-images img,
+.moroco-sub-images img {
+    margin: 15px 0;
+}
+.domestic-image-wraper p,
+.gallery-head p,
+.internation-image-wraper p {
+    color: #4d4d4d;
+    margin-bottom: 6px;
+    margin-top: 15px;
+    font-family: Inter-Bold;
+}
+.domestic-image-wraper p,
+.internation-image-wraper p {
+    font-size: 1vw;
+}
+.image-library-wraper .latest-media-wraper p {
+    font-size: 1.8vw;
+}
+.gallery-head p {
+    font-size: 2.2vw;
+}
+@media screen and (max-width: 1250px) {
+    .news-parent {
+        margin-top: -28%;
+    }
+    .our-vision-container {
+        padding: 8% 8% 5%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .news-parent {
+        margin-top: -30%;
+    }
+    .our-vision-container {
+        padding: 10% 8% 5%;
+    }
+    .vision-content-detail {
+        padding: 0 30px 0 35px;
+    }
+    .vision-content {
+        padding: 5% 8%;
+    }
+    .download-wraper {
+        height: 345px;
+    }
+    .vision-content-detail-lower p {
+        height: 55px;
+    }
+    .grp-of-campany-grid .grp-of-campany-grid-wraper {
+        height: 120px;
+    }
+    /*inner hero section background images*/
+    .content-caurosel-sec.ethics,
+    .content-caurosel-sec.founder,
+    .content-caurosel-sec.chairman,
+    .content-caurosel-sec.bod,
+    .content-caurosel-sec.companies,
+    .content-caurosel-sec.hamza,
+    .content-caurosel-sec.news
+    
+    {
+        background-position: center;
+        background-size: cover;
+    }
+    .content-caurosel-sec.ethics
+    {
+        background-image: url(../images/ethics/CSR.webp);
+    }
+    .content-caurosel-sec.founder {
+        height: auto;
+        background-image: url(../images/home-page-images/ayesha-gas-complex-banner2.webp);
+    }
+    .content-caurosel-sec.chairman
+    {
+        background-image: url(../images/chairman/teamGroupPic.webp);
+    }
+    .content-caurosel-sec.bod
+    {
+        background-image: url(../images/team/fieldWorkingPic.webp);
+    }
+    .content-caurosel-sec.companies
+    {
+        background-image: url(../images/group-of-companies/GroupOfCompanyBanner.webp);
+        background-position: 35%;
+    }
+    .content-caurosel-sec.hamza
+    {
+        background-image: url(../images/ayesha-gas-complex-images/AyeshaGasComplexBanner.webp);
+        background-position: 18% 35%;
+    }
+    .content-caurosel-sec.news
+    {
+        background-image: url(../images/news/ayeshaGasField.webp);
+    }
+    
+    .content-caurosel-sec .inner-sections-hero img
+    {
+        display: none !important;
+    }
+
+    
+}
+@media screen and (min-width: 992px) {
+    .mob-menu-btn {
+        display: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    .tranding-wraper {
+        border-left: none !important;
+        display: block;
+    }
+    .pepl-team-participation .pepl-container .participation-carousel {
+        border-right: none !important;
+    }
+    .vision-content-detail h5 {
+        margin-top: 15px;
+    }
+    .tranding-wraper .tranding-head {
+        margin-top: 30px;
+    }
+    .adipec-wraper2,
+    .company-list-second,
+    .tranding-wraper1 {
+        padding-left: 0;
+    }
+    .gas-field-detail,
+    .gas-field-head,
+    .hssc-detail,
+    .hssc-head {
+        padding-left: 0 !important;
+    }
+    .adipec-wraper1,
+    .company-list-first,
+    .kedra-gas-field .vision-carousel,
+    .pepl-crisis-management,
+    .pepl-team-participation .pepl-container .participation-carousel,
+    .tender-inner-sec1 {
+        padding-right: 0;
+    }
+    .download-inner {
+        border-left: none;
+    }
+    .download-inner1 {
+        padding-left: 0;
+        margin-top: 8%;
+    }
+    .about-team,
+    .team-adipec-about {
+        height: 46vh;
+    }
+    .pepl-activities {
+        height: auto;
+    }
+    .table-right-wraper {
+        margin-left: 0;
+    }
+    .vision-content-detail-lower p {
+        height: 112px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .news-parent {
+        margin-top: -54%;
+    }
+    .our-vision-container {
+        padding: 8% 6% 5%;
+    }
+    .our-vision-wraper-lower .our-vision-container {
+        padding: 0 10% 4%;
+    }
+    .assets-detail-wraper h5,
+    .slider-heading-wraper p,
+    .tender-links a {
+        font-size: 2.5vw;
+    }
+    .slider-heading-wraper h1 {
+        font-size: 4.5vw;
+    }
+    .about-bottom-wraper .link-about a span,
+    .our-team-sec .chairman-img-wraper a span,
+    .slider-heading-wraper a,
+    .slider-news1 a,
+    .slider-news1 a .slider-news1-heading {
+        font-size: 1.2vw;
+    }
+    .assets-detail-wraper .ep-head,
+    .companies-detail .company-detail,
+    .date,
+    .footer-wraper .footer-links a,
+    .slider-news1-det {
+        font-size: 1.8vw;
+    }
+    .social-media-wraper i {
+        font-size: 3vw;
+    }
+    .vision-content-detail {
+        padding: 0 0 0 5px;
+    }
+    .about-bottom-wraper .link-about a,
+    .breadcrumb ul li,
+    .companies-detail .company-head,
+    .footer-social-links i,
+    .group-companies-section p,
+    .key-feature-text,
+    .our-team-sec .chairman-img-wraper a,
+    .pepl-crisis-management .crisis-management-head,
+    .pepl-crisis-management .save-water-head,
+    .pepl-team-participation .pepl-container .adipec-head,
+    .table-head,
+    .table-right-content,
+    .tender-section .tender-head,
+    .tranding-wraper .tranding-head,
+    .vision-content-detail h5,
+    .vision-content-detail-lower h5 {
+        font-size: 2vw;
+    }
+    .tranding-wraper .gas-field-head,
+    .tranding-wraper .hssc-head {
+        font-size: 1.6vw;
+    }
+    .about-team-detail,
+    .about-team-head,
+    .assets-detail-wraper .assets-detail,
+    .company-detail,
+    .download-files .download-wraper p,
+    .latest-medai-release .latest-media-top p,
+    .latest-media-wraper p:first-child,
+    .latest-media-wraper p:nth-child(2),
+    .meet-our-team,
+    .partner-list p,
+    .pepl-crisis-management .crisis-management-details,
+    .pepl-crisis-management .save-water-details,
+    .pepl-team-participation .pepl-container .adipec-detail,
+    .team-explain,
+    .tender-section .tender-detail,
+    .tender-section .tender-files .tender-file1 p,
+    .tender-section .tender-files .tender-file2 p,
+    .tender-section .tender-files .tender-file3 p,
+    .tranding-wraper .gas-field-detail,
+    .tranding-wraper .hssc-detail,
+    .vision-content-detail p,
+    .vision-content-detail-lower p,
+    .working-at-pepl p:nth-child(2),
+    .working-at-pepl-text p,.team-designation {
+        font-size: 1.8vw !important;
+    }
+    .team-adipec-about a {
+        padding: 92px 8px 20px !important;
+        font-size: 1.6vw !important;
+    }
+    .assets-section .assets-container {
+        padding: 4% 10%;
+    }
+    .about-bottom-wraper .about-team a,
+    .aur-assets-btn,
+    .download-files .download-wraper a,
+    .latest-media-wraper a,
+    .media-contact a,
+    .pepl-team-participation .pepl-container a,
+    .tender-section .tender-read-more,
+    .vision-content-detail a,
+    .vision-content-detail-lower a {
+        font-size: 1.5vw !important;
+    }
+    .pepl-team-participation .pepl-container .participation-carousel {
+        padding-right: 12px;
+    }
+    .tranding-wraper1 {
+        padding-left: 0;
+    }
+    .management-sec-image iframe,
+    .tranding-wraper1 iframe {
+        width: 100%;
+    }
+    .pepl-crisis-management {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    .group-companies-section h1 {
+        font-size: 2.8vw;
+    }
+    
+    .domestic-menu li,
+    .international-menu li,
+    .mob-about-menu li,
+    .mob-management-menu li,
+    .portfolio-menu li,
+    .sustainability-menu li,
+    .value-menu li {
+        text-align: center;
+    }
+    .footer-bottom .copyright p,
+    .footer-bottom .privacy-links a {
+        font-size: 1.4vw;
+    }
+    .footer-bottom .site-logo p {
+        font-size: 1.6vw;
+        margin-top: 10px;
+    }
+    .key-feature-col-left {
+        margin-right: auto;
+    }
+    .chairman-message,
+    .page-top-head {
+        font-size: 2.6vw !important;
+    }
+    .team-adipec-about a img {
+        width: 5% !important;
+    }
+    .download-wraper {
+        height: 350px;
+    }
+    .slick-slider-wraper2 {
+        width: 62%;
+    }
+    .chairman-and-ca-head .company-list-second {
+        margin: 0;
+    }
+    .companies-container-row {
+        justify-content: left !important;
+    }
+    .about-bottom-wraper .link-about img,
+    .chairman-and-ca-head .our-team-sec .link-about img {
+        width: 6% !important;
+    }
+    .group-of-companies-tab a {
+        left: 60%;
+        font-size: 2.5vw;
+    }
+    .mission-container iframe {
+        height: 50vh !important;
+    }
+    .grp-of-campany-grid .grp-of-campany-grid-wraper {
+        height: 88px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .partner-top-wraper .mission-top-wraper-row img {
+        margin: 35px 0;
+    }
+    .partner-top-wraper .mission-top-wraper-row {
+        border-bottom: none !important;
+        padding: 0;
+    }
+    .partner-top-wraper .mission-container .row:first-child {
+        border-bottom: 2px solid #ebeded !important;
+        padding: 45px 0;
+    }
+    .partner-img-1,
+    .partner-img-10,
+    .partner-img-11,
+    .partner-img-2,
+    .partner-img-3,
+    .partner-img-4,
+    .partner-img-5,
+    .partner-img-6,
+    .partner-img-8,
+    .partner-img-9 {
+        width: 65%;
+    }
+    .partner-img-7 {
+        width: 75%;
+    }
+    .partner-list .partner-list-wraper p:first-child,
+    .partner-list .partner-list-wraper2 p:first-child {
+        font-size: 2.6vw !important;
+    }
+    .ethics-top-wraper .mission-top-wraper-col1 p {
+        padding-right: 0;
+    }
+    .ethics-top-wraper .mission-top-wraper-col2 p {
+        padding-left: 0;
+    }
+    .hsse-head3 {
+        margin-top: 60px;
+    }
+    .mission-top-wraper-col1 img {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .our-people-col2 {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+    .vision-content-detail-lower {
+        padding-left: 0;
+        margin-bottom: 60px;
+    }
+    .news-parent {
+        margin-top: -45%;
+    }
+    .vision-content-detail-lower p {
+        height: auto;
+    }
+}
+@media screen and (max-width: 767px) {
+    .image-gal {
+        display: none;
+    }
+    .Dignitaries-tab,
+    .domestic-Dignitaries-tab,
+    .domestic-singing-tab,
+    .drilling-tab,
+    .moroco-spud-tab,
+    .moroco-tab {
+        border: 1px solid #3a3a3a;
+        padding: 15px;
+        height: 55px;
+    }
+    .Dignitaries-sub-images,
+    .domestic-Dignitaries-sub-images,
+    .domestic-image-wraper,
+    .domestic-singing-image-wraper,
+    .drilling-sub-images,
+    .image-library-wraper,
+    .inter-domes-tab,
+    .moroco-spud-sub-images,
+    .moroco-sub-images {
+        margin-bottom: 20px;
+    }
+    .Dignitaries-sub-images,
+    .drilling-sub-images,
+    .moroco-spud-sub-images,
+    .moroco-sub-images {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .slick-slider-wraper2 {
+        width: 55%;
+    }
+    .news-parent {
+        margin-top: -62%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .mobl-img {
+        display: block;
+        width: 100%;
+    }
+    .button_container .bottom,
+    .button_container .middle,
+    .button_container .top,
+    .desktop-img,
+    .team-bottom-wraper-image {
+        display: none;
+    }
+    .navbar {
+        top: 0;
+        right: 0;
+    }
+    .navbar-toggler img {
+        width: 62%;
+    }
+    .navbar-toggler {
+        padding: 0;
+    }
+    .navbar > .container-fluid {
+        display: block;
+    }
+    .news-parent {
+        margin-top: -72%;
+    }
+    .extra-col {
+        flex: 0.5;
+    }
+    .extra-col img,
+    .partner-img-1,
+    .partner-img-10,
+    .partner-img-2,
+    .partner-img-3,
+    .partner-img-4,
+    .partner-img-6,
+    .partner-img-8,
+    .partner-img-9 {
+        width: 50%;
+    }
+    .our-vision-container {
+        padding: 26% 8% 14%;
+    }
+    .slider-heading-wraper h1,
+    .social-media-wraper i {
+        font-size: 5vw;
+    }
+    .slider-heading-wraper p {
+        font-size: 2.5vw;
+    }
+    .slider-heading-wraper {
+        margin-bottom: 10px !important;
+    }
+    .date,
+    .group-companies-section p,
+    .slider-news1 a,
+    .slider-news1 a .slider-news1-heading {
+        font-size: 2.2vw;
+    }
+    .slick-prev {
+        right: -47px !important;
+        border-right: none;
+        top: 38%;
+    }
+    .slick-next {
+        top: 75%;
+        right: -19% !important;
+    }
+    .partner-img-11,
+    .partner-img-5,
+    .partner-img-7,
+    .slick-slider-wraper2 {
+        width: 70%;
+    }
+    .sidebar-logo-sec {
+        flex: 0.2;
+    }
+    .vision-content {
+        padding: 10% 8%;
+    }
+    .our-vision-container .carousel-control-next-icon,
+    .our-vision-container .carousel-control-prev-icon {
+        padding: 2px 10px !important;
+    }
+    .our-vision-container .carousel-control-prev {
+        right: 43px !important;
+    }
+    .vision-content-detail h5,
+    .vision-content-detail-lower h5 {
+        font-size: 3.5vw;
+        margin-top: 15px;
+    }
+    .about-team-detail,
+    .about-team-head,
+    .assets-detail-wraper .assets-detail,
+    .company-detail,
+    .download-files .download-wraper p,
+    .key-feature-col-left,
+    .key-feature-text,
+    .latest-medai-release .latest-media-top p,
+    .latest-media-wraper p:first-child,
+    .latest-media-wraper p:nth-child(2),
+    .link-about a,
+    .link-about span,
+    .meet-our-team,
+    .page-top-wraper .page-top-small-head,
+    .partner-list p,
+    .pepl-crisis-management .crisis-management-details,
+    .pepl-crisis-management .save-water-details,
+    .pepl-team-participation .pepl-container .adipec-detail,
+    .slider-news1-det,
+    .table-head,
+    .table-right-content,
+    .team-adipec-about a,
+    .team-explain,.team-designation,
+    .tender-section .tender-detail,
+    .tender-section .tender-files .tender-file1 p,
+    .tender-section .tender-files .tender-file2 p,
+    .tender-section .tender-files .tender-file3 p,
+    .tranding-wraper .gas-field-detail,
+    .tranding-wraper .hssc-detail,
+    .vision-content-detail p,
+    .vision-content-detail-lower p,
+    .working-at-pepl p:nth-child(2),
+    .working-at-pepl-text p {
+        font-size: 3vw !important;
+    }
+    .vision-content-detail p {
+        margin: 10px 0 !important;
+    }
+    .about-bottom-wraper .about-team a,
+    .aur-assets-btn,
+    .badar-south-detial a,
+    .download-files .download-wraper a,
+    .latest-media-wraper a,
+    .media-contact a,
+    .pepl-team-participation .pepl-container a,
+    .slider-heading-wraper a,
+    .tender-section .tender-read-more,
+    .vision-content-detail a,
+    .vision-content-detail-lower a {
+        font-size: 2.5vw !important;
+    }
+    .vision-content-detail a {
+        margin-top: 25px;
+        display: inline-block;
+    }
+    .vision-content-detail-lower a {
+        display: inline-block;
+        margin-bottom: 25px !important;
+    }
+    .vision-content-detail-lower p {
+        margin: 10px 0 30px !important;
+    }
+    .assets-detail-wraper .ep-head,
+    .assets-detail-wraper h5,
+    .footer-social-links i,
+    .gallery-head p,
+    .pepl-crisis-management .crisis-management-head,
+    .pepl-crisis-management .save-water-head,
+    .tender-links a,
+    .tender-section .tender-head,
+    .tranding-wraper .gas-field-head,
+    .tranding-wraper .hssc-head,
+    .tranding-wraper .tranding-head {
+        font-size: 3.5vw;
+    }
+    .assets-detail-wraper .assets-detail {
+        padding-right: 50px;
+    }
+    .assets-section {
+        background-size: cover !important;
+    }
+    .assets-container {
+        background-color: #00000070;
+    }
+    .assets-detail-wraper {
+        color: #fff;
+    }
+    .aur-assets-btn {
+        color: #fff !important;
+        font-size: 2vw;
+        border: 1px solid #fff;
+    }
+    .download-inner,
+    .tranding-wraper {
+        border-left: none;
+    }
+    .pepl-team-participation .pepl-container .participation-carousel {
+        padding-top: 0;
+        border-right: none;
+    }
+    .pepl-team-participation .pepl-container .adipec-head {
+        margin-bottom: 25px;
+        font-size: 3.5vw;
+        margin-top: 50px;
+    }
+    .pepl-team-participation .pepl-container a {
+        font-size: 2vw;
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+    .tranding-wraper .tranding-head {
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+    .download-inner1,
+    .tranding-wraper1 {
+        padding-left: 0;
+    }
+    .tranding-wraper .gas-field-detail {
+        margin-bottom: 35px;
+    }
+    .tender-section .tender-files .tender-file1 p,
+    .tender-section .tender-files .tender-file2 p,
+    .tender-section .tender-files .tender-file3 p {
+        font-size: 2.1vw;
+    }
+    .companies-detail .company-detail,
+    .footer-bottom .copyright p,
+    .tender-section .tender-read-more {
+        font-size: 2vw;
+    }
+    .download-inner {
+        margin-top: 40px;
+    }
+    .companies-detail .company-head,
+    .footer-bottom .site-logo p,
+    .footer-wraper .footer-links a {
+        font-size: 3vw;
+    }
+    .footer-bottom-wraper,
+    .footer-wraper {
+        flex-direction: column;
+    }
+    .footer-links,
+    .footer-social-links {
+        text-align: center;
+    }
+    .footer-social-links {
+        margin-top: 20px;
+    }
+    .footer-bottom .privacy-links a {
+        font-size: 2.5vw;
+        margin-top: 20px;
+    }
+    .companies-wraper,
+    .footer-bottom .privacy-links,
+    .moeen-container {
+        margin-top: 10px;
+    }
+    .kedra-gas-field .vision-carousel {
+        padding-right: 0;
+    }
+    .breadcrumb ul li,
+    .group-companies-section h1 {
+        font-size: 2.8vw;
+    }
+    .companies-wraper {
+        margin-right: 0;
+    }
+    .company-list-second .companies-wraper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .chairman-message,
+    .page-top-wraper .page-top-head {
+        font-size: 5.5vw !important;
+    }
+    .news-wraper3,
+    .table-right-wraper {
+        margin-top: 25px;
+    }
+    .download-wraper {
+        height: auto;
+        margin-bottom: 25px;
+    }
+    .download-files .download-wraper a {
+        position: unset;
+    }
+    .download-files .download-wraper p {
+        height: 115px;
+        margin-bottom: 15px;
+        padding-right: 0;
+    }
+    .download-files .download-container {
+        padding-bottom: 0;
+    }
+    .download-container .col-4 {
+        padding: 0 2px !important;
+    }
+    .download-files .download-wraper a,
+    .media-contact a {
+        font-size: 1.8vw !important;
+    }
+    .latest-media-wraper a {
+        font-size: 2.2vw !important;
+    }
+    .news-section {
+        margin-top: 30px;
+    }
+    .news-section .news-wraper p {
+        padding: 0;
+        font-size: 2.2vw;
+        margin-bottom: 0 !important;
+    }
+    .download-files,
+    .news-section .second-row {
+        margin-top: 0;
+    }
+    .chairman-and-ca-head .company-list-second,
+    .feature-image img {
+        margin: 0;
+    }
+    .span-left {
+        width: 150px;
+    }
+    .span-long {
+        margin-right: 35px;
+    }
+    .chairman-message,
+    .page-top-head {
+        font-size: 3.6vw !important;
+    }
+    .about-bottom-wraper .team-bottom-wraper h1 {
+        margin-bottom: 7% !important;
+    }
+    .about-team,
+    .company-list-second .chairman-img-wraper,
+    .team-adipec-about {
+        margin-top: 10px !important;
+    }
+    .team-adipec-about a img {
+        width: 4% !important;
+    }
+    .download-mob {
+        margin-bottom: 0;
+    }
+    .moeen-image-wraper {
+        height: 60vh;
+    }
+    .about-team,
+    .team-adipec-about {
+        height: 40vh;
+    }
+    .team-adipec-about {
+        background-size: contain;
+    }
+    .team-adipec-about a {
+        padding: 16px 8px !important;
+    }
+    .about-bottom-wraper .bottom-wraper {
+        padding-right: 25px;
+    }
+    .partner-list .partner-list-wraper p:first-child,
+    .partner-list .partner-list-wraper2 p:first-child {
+        font-size: 3.8vw !important;
+    }
+    .partner-list .partner-list-wraper2 {
+        margin-top: 45px;
+    }
+    .group-of-companies-tab {
+        height: 35vh;
+    }
+    .group-of-companies-tab a {
+        left: 4%;
+        bottom: 5%;
+        font-size: 3.5vw;
+    }
+    .about-top-wraper .mission-container {
+        padding-bottom: 20px;
+    }
+    .button_container {
+        position: absolute;
+        background-image: url(../images/menu-image/closeBtn.svg);
+        width: 100%;
+        height: 35px;
+        background-repeat: no-repeat;
+        top: 3%;
+        right: -80%;
+    }
+    #animContainer1,
+    #animContainer10,
+    #animContainer11,
+    #animContainer12,
+    #animContainer2,
+    #animContainer3,
+    #animContainer4,
+    #animContainer5,
+    #animContainer6,
+    #animContainer7,
+    #animContainer8,
+    #animContainer9 {
+        width: 12% !important;
+    }
+    .adipec-container {
+        padding: 0 6%;
+    }
+    .domestic-image-wraper p,
+    .internation-image-wraper p {
+        font-size: 2.8vw;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    .international-image-head p {
+        font-size: 5.8vw;
+    }
+    .badar-south-head {
+        background-size: cover;
+        height: 45vh;
+        background-position: center;
+        margin-bottom: 35px;
+    }
+    .about-bottom-wraper,
+    .bod-executive.about-bottom-wraper,
+    .bod-working-at-pepl,
+    .chairman-and-ca-head {
+        padding-top: 10%;
+    }
+    .about-bottom-wraper {
+        padding-bottom: 10%;
+    }
+    .page-top .team-explain,
+    .team-explain {
+        margin: 20px 20px 0 0 !important;
+    }
+    .grp-of-campany-grid .grp-of-campany-grid-wraper {
+        height: 50px;
+    }
+}
+@media screen and (max-width: 385px) {
+    .news-parent {
+        margin-top: -85%;
+    }
+    .slick-prev {
+        top: 36%;
+        right: -19% !important;
+    }
+    .about-bottom-wraper .about-team a,
+    .aur-assets-btn,
+    .download-files .download-wraper a,
+    .media-contact a,
+    .pepl-team-participation .pepl-container a,
+    .slider-heading-wraper a,
+    .tender-section .tender-read-more,
+    .vision-content-detail a {
+        font-size: 2.2vw !important;
+    }
+    .span-left {
+        width: 120px;
+    }
+    .span-long {
+        margin-right: 22px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .news-parent {
+        margin-top: -90%;
+    }
+    .slick-prev {
+        top: 32%;
+    }
+    .span-long {
+        margin-right: 32px;
+    }
+    .about-team,
+    .team-adipec-about {
+        height: 36vh;
+    }
+    .group-of-companies-tab {
+        height: 30vh;
+    }
+}
